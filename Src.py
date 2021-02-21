@@ -10,14 +10,14 @@ num = 501
 if num > 1:
  
 
-    # Iterate from 2 to Prime_num/ 2
+    # Iterate from 2 to num/ 2
 
     for i in range(2, num):
  
 
         # If num is divisible by any number between
 
-        # 2 and Prime_num / 2, it is not prime
+        # 2 and num / 2, it is not prime
 
         if (num % i) == 0:
 
